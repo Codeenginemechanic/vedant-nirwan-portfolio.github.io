@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vedant Nirwan - Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7fc;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 40px;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #333;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #0077cc;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    p {
+      font-size: 1.1em;
+      color: #666;
+      margin-bottom: 30px;
+    }
+
+    .projects, .skills, .contact, .social-links {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #333;
+      border-bottom: 2px solid #0077cc;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 20px;
+    }
+
+    li {
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    li::before {
+      content: '✔ ';
+      color: #0077cc;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 15px 10px;
+      font-size: 1.2em;
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #005f8a;
+    }
+
+    .contact p {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .contact a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2em;
+      }
+
+      .profile-pic {
+        width: 120px;
+        height: 120px;
+      }
+
+      h2 {
+        font-size: 1.6em;
+      }
+
+      ul li {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://media-hosting.imagekit.io/ce1800a827044e2f/vedant.jpg?Expires=1840984120&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=cK73W67iUzBbJqxZGvJxBwQ2oOYj5KRtnKp~H1aHkapaybs7scTU4gaqnnPtgqpwoI-CkmqnhE9SbvNeW5iS5UYCJi2vvVKQ1Q0UKK8Civvi5~LP4zokxsolw3JL9h-v1J7TDizv~QS9Ckf6b5Ap6oJMxnYxcvXsQ5-Tp0j63Jo7FeKAOPJvfYC0HYsvrU389hDDMPoCuNfLfP0Iqm5lpWBuCrDQ38ju7n1a-0UdVApnBurMVk6q3tnxNKLqAw2NnwVf3QEdnS6cncBxsVLSADAEHKl~eQidUJf6lfntRi9luqVy-hPlUWxR3dG4W3r7L6wVTBirghoEsqxWjqnt2g__" alt="Vedant Nirwan" class="profile-pic">
+
+    <h1>Vedant Chandrakishor Nirwan</h1>
+    <p>FY Mechanical Engineering Student at MITAOE, Alandi, Pune. Passionate about innovation and problem-solving, with a focus on creating sustainable and impactful solutions.</p>
+
+    <div class="projects">
+      <h2>Projects</h2>
+      <h3>1. Incense Sticks from Temple Flower Waste</h3>
+      <p>Developing a process to recycle flowers from local temples into eco-friendly incense sticks. The project aims to contribute to sustainability by reducing temple waste and providing employment opportunities.</p>
+      <ul>
+        <li>Uses rose, marigold petals, and other temple waste</li>
+        <li>Mixes with natural scents like attar, rose water</li>
+        <li>Creates eco-friendly incense sticks</li>
+        <li>Potential to provide jobs for the local community</li>
+      </ul>
+
+      <h3>2. Research Paper Summarizer</h3>
+      <p>Built a Python-based tool that automatically generates concise bullet-point summaries from academic research papers, aiding students and professionals in quick content digestion.</p>
+      <p><a href="https://colab.research.google.com/drive/11ps0duGaCfUJu2mhbB73nSn6J_fn9ud_?usp=sharing" target="_blank">Open in Google Colab</a></p>
+    </div>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Design Thinking and Problem Solving</li>
+        <li>Basic Python Programming & NLP</li>
+        <li>Mechanical Engineering Concepts</li>
+        <li>Team Collaboration & Leadership</li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:vedantnirwan4@gmail.com">vedantnirwan4@gmail.com</a></p>
+      <p>Phone: +91-9172022071</p>
+    </div>
+
+    <div class="social-links">
+      <h2>Find Me Online</h2>
+      <a href="https://github.com/Codeenginemechanic" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/vedantnirwan" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
